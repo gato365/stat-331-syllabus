@@ -1,0 +1,948 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  11pt,
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage[]{mathpazo}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Stat 331/531: Statistical Computing with R},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Stat 331/531: Statistical Computing with R}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Winter 2024}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, frame hidden, interior hidden, sharp corners, boxrule=0pt, enhanced, breakable]}{\end{tcolorbox}}\fi
+
+\hypertarget{communication}{%
+\subsection{Communication}\label{communication}}
+
+\textbf{Dr.~Immanuel Williams}
+
+\includegraphics[width=1em,height=1em]{index_files/figure-pdf/fa-icon-a7ff419e70980f9f1a65816048d94526.pdf}
+Email:
+\href{mailto:imwillia@calpoly.edu?subject=Stat\%20331/531}{imwillia@calpoly.edu}
+
+\includegraphics[width=0.75em,height=1em]{index_files/figure-pdf/fa-icon-443d06266e96702cc4dd4ffb1304f584.pdf}
+Office: Building 25 Office 113 (by Statistics Department Office)
+
+\hypertarget{course-logistics}{%
+\subsection{Course Logistics}\label{course-logistics}}
+
+\textbf{Class Meeting Times:} Tuesdays/Thursdays
+
+\begin{itemize}
+\tightlist
+\item
+  Section 72: 4:10pm - 6:00pm
+\end{itemize}
+
+\textbf{Room:} 38-0123 (Math \& Science)
+
+\textbf{Learning Hours} are held in my office (25-113) during the
+following times:
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{index_files/figure-pdf/unnamed-chunk-2-1.pdf}
+
+}
+
+\end{figure}
+
+Note that learning hours are not just for when you have content
+questions. Stop by to introduce yourself, ask questions about the
+broader field of statistics, or share what you are working on!
+
+\hypertarget{course-description}{%
+\section{Course Description}\label{course-description}}
+
+Stat 335/531 provides you with an introduction to programming for data
+and statistical analysis. The course covers basic programming concepts
+necessary for statistics, good computing practice, and use of built-in
+functions to complete basic statistical analyses.
+
+\textbf{Prerequisites}
+
+Entrance to STAT 331/531 requires successful completion of:
+
+\begin{itemize}
+\tightlist
+\item
+  a Stat II qualifying course, and
+\item
+  an introductory programming course.
+\end{itemize}
+
+\hypertarget{learning-objectives}{%
+\section{Learning Objectives}\label{learning-objectives}}
+
+This course will teach you the foundations of statistical computing
+principles in the language of \texttt{R}.
+
+After taking this course, you will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Work with the RStudio Integrated development environment (IDE) and
+  quarto documents.
+\item
+  Import, manage, and clean data from a wide variety of data sources.
+\item
+  Visualize and summarize data for informative exploratory data analysis
+  and presentations.
+\item
+  Write efficient, well-documented, and tidy \texttt{R} code.
+\item
+  Build an Shiny applications to be able to display visualizations and
+  tables.
+\end{itemize}
+
+Additionally, it is my hope that you will learn to:
+
+\begin{itemize}
+\tightlist
+\item
+  Extend your \texttt{R} skills independently through documentation and
+  online resources.
+\item
+  Be thoughtful, deliberate, and ethical in your use of \texttt{R} and
+  similar tools.
+\item
+  Use R to be playful, creative, and fun!
+\item
+  Contribute to and participate in the R Open Source Community.
+\end{itemize}
+
+\hypertarget{course-tools}{%
+\section{Course Tools}\label{course-tools}}
+
+\textbf{Textbook}
+
+There is an abundance of free online resources for learning programming
+and R. Therefore, the primary text for this course is a compilation of
+various resources - it is available for free at
+\includegraphics[width=0.88em,height=1em]{index_files/figure-pdf/fa-icon-5ea3361430ab42477e0145b37bf037cc.pdf}
+\url{https://gato365.github.io/stat331-calpoly-text/}.
+
+This text has been modified from material by
+\href{https://github.com/srvanderplas}{Dr.~Susan VanderPlas}. See
+\href{https://srvanderplas.github.io/stat-computing-r-python/}{Statistical
+Computing using R and Python} for her course book with integration of
+content and videos from \href{https://github.com/atheobold}{Dr.~Allison
+Theobold} and \href{https://github.com/kbodwin}{Dr.~Kelly Bodwin}.
+
+In addition, you may find it useful to reference some of the following
+resources that I have consulted while assembling the text. Most are
+available online for free.
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://r4ds.hadley.nz/}{R for Data Science (2nd edition)}
+\item
+  \href{https://moderndive.com/1-getting-started.html}{Modern Dive}
+\item
+  \href{https://openintro-ims.netlify.app/}{Introduction to Modern
+  Statistics}
+\item
+  \href{http://adv-r.had.co.nz/}{Advanced R}
+\end{itemize}
+
+\includegraphics[width=1.25em,height=1em]{index_files/figure-pdf/fa-icon-200198f1a0ee0bd3b2404fd0ddb4d488.pdf}
+Although you may always work on the Studio computers, I strongly
+recommend that you use your own personal laptop for this course if you
+have one.
+
+\includegraphics[width=1em,height=1em]{index_files/figure-pdf/fa-icon-c41ef61dfed73f2cdfa3696207b9d436.pdf}
+Chromebooks and iPads will \textbf{not} be sufficient to use \texttt{R}.
+If this requirement is limiting for you, please contact me ASAP.
+
+\newpage
+
+\hypertarget{class-schedule-topic-outline}{%
+\section{Class Schedule \& Topic
+Outline}\label{class-schedule-topic-outline}}
+
+This schedule is tentative and subject to change.
+
+\begin{figure}[h]
+
+{\centering \includegraphics{index_files/figure-pdf/calendar-1.pdf}
+
+}
+
+\caption{Note: Tuesday, January 16th will follow a Monday class schedule
+due to Martin Luther King's Day.}
+
+\end{figure}
+
+\begin{longtable}[]{@{}ll@{}}
+\caption{Tentative schedule of class topics and important due
+dates}\tabularnewline
+\toprule\noalign{}
+Date & Topic \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+Date & Topic \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Jan 9, Jan 11 & Introduction to R \\
+Jan 18 & Tidy Data + Basics of Graphics \\
+Jan 23, Jan 25 & Data Cleaning and Manipulation (dplyr) \\
+Jan 30 & Data Transformations + Factors (tidyr + forcats) \\
+Feb 1 & Midterm Exam 1 \\
+Feb 6, Feb 8 & Special Data Types (stringr + lubridate) \\
+Feb 13, Feb 15 & Shiny Applications \\
+Feb 20, Feb 22 & Functions \\
+Feb 27 & Functional Programming (purrr) \\
+Feb 29 & Midterm Exam 2 \\
+Mar 5, Mar 7 & Version Control (Git/GitHub) \\
+Mar 12, Mar 14 & Final Project \\
+Mar 21 & Final Exam \\
+\end{longtable}
+
+Note: Please note that our textbook is currently being updated to
+include additional chapters that are essential for our course. I
+appreciate your patience and understanding as these updates are made
+throughout the quarter.
+
+\begin{tcolorbox}[enhanced jigsaw, toptitle=1mm, arc=.35mm, toprule=.15mm, colback=white, opacityback=0, coltitle=black, colbacktitle=quarto-callout-tip-color!10!white, colframe=quarto-callout-tip-color-frame, bottomtitle=1mm, opacitybacktitle=0.6, leftrule=.75mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{\textbf{Final Exam} on Thursday, March 21:}, left=2mm, bottomrule=.15mm, breakable, titlerule=0mm, rightrule=.15mm]
+
+\begin{itemize}
+\tightlist
+\item
+  Section 72 at 7:10pm --10:00pm
+\end{itemize}
+
+\end{tcolorbox}
+
+\hypertarget{course-policies}{%
+\section{Course Policies}\label{course-policies}}
+
+\hypertarget{assessmentgrading}{%
+\subsection{Assessment/Grading}\label{assessmentgrading}}
+
+Your grade in STAT 331/531 will contain the following components:
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Assignments & Weight \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Weekly Journal Quizzes & 5\% \\
+Check-ins & 5\% \\
+Practice Activities & 10\% \\
+Midterm Exams & 20\% \\
+Lab Assignments & 25\% \\
+Final Project & 25\% \\
+Final Exam & 10\% \\
+\end{longtable}
+
+Lower bounds for grade cutoffs are shown in the following table. I will
+not ``round up'' grades at the end of the quarter. See this
+\href{https://twitter.com/drseanmullen/status/1604212304622518272?s=46\&t=II3oNLTSSrljVPqptoe21g}{social
+media thread} for advice on \emph{``Playing the lines. Don't be
+there.''}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule\noalign{}
+Letter grade & X + & X & X - \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+A & . & 93 & 90 \\
+B & 87 & 83 & 80 \\
+C & 77 & 73 & 70 \\
+D & 67 & 63 & 60 \\
+F & \textless60 & & \\
+\end{longtable}
+
+Interpretation of this table:
+
+\begin{itemize}
+\tightlist
+\item
+  A grade of 85 will receive a B.
+\item
+  A grade of 77 will receive a C+.
+\item
+  A grade of 70 will receive a C-.
+\item
+  Anything below a 60 will receive an F.
+\end{itemize}
+
+\hypertarget{general-evaluation-criteria}{%
+\subsubsection{General Evaluation
+Criteria}\label{general-evaluation-criteria}}
+
+In every assignment, discussion, and written component of this class,
+you are expected to demonstrate that you are intellectually engaging
+with the material. I will evaluate you based on this engagement, which
+means that technically correct but low effort answers which do not
+demonstrate engagement or understanding will receive no credit.
+
+When you answer questions in this class, your goal is to show that you
+either understand the material or are actively engaging with it. If you
+did not achieve this goal, then your answer is incomplete, regardless of
+whether or not it is technically correct. This is not to encourage you
+to add unnecessary complexity to your answer - simple, elegant solutions
+are always preferable to unwieldly, complex solutions that accomplish
+the same task.
+
+While this is not an English class, grammar and spelling are important,
+as is your ability to communicate technical information in writing; both
+of these criteria will be used in addition to assignment-specific
+rubrics to evaluate your work.
+
+\hypertarget{assignment-breakdown}{%
+\subsection{Assignment Breakdown}\label{assignment-breakdown}}
+
+\hypertarget{a.-weekly-reflection-journal}{%
+\subsubsection{A. Weekly Reflection
+Journal}\label{a.-weekly-reflection-journal}}
+
+\textbf{Objective}: This journal is designed to enhance your learning
+experience in statistical computing. By actively documenting your
+progress, reflecting on challenges, and acknowledging your achievements,
+you will deepen your understanding and improve your problem-solving
+skills in R programming.
+
+\textbf{Components of the Journal}:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Quarto File -- `The Journal'}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Each week, you will maintain a digital journal in a Quarto file.
+    This journal is your space to document new R functions you've
+    learned, errors encountered, and reflections on your learning
+    journey.
+  \item
+    \textbf{Weekly Entries}:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \textbf{Function Log}: Note any new R functions you learn each
+      week, detailing their purpose and an example of their usage.
+    \item
+      \textbf{Error Diary}: Record any significant errors you encounter,
+      describe the issue, and explain how you resolved it. This diary
+      will serve as a valuable resource for troubleshooting. Throughout
+      the course, students are likely to encounter various errors, both
+      minor and significant. Initially, log all errors, including
+      omitted arguments, to build a strong foundation; as proficiency
+      increases, focus on documenting more complex and conceptually
+      challenging errors.
+    \item
+      \textbf{Reflection}: Pen a brief reflection on your learning
+      experiences, the challenges you faced, and how you plan to apply
+      or improve upon this knowledge in the future.
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Weekly Quiz}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    To complement your journaling and ensure consistent engagement, a
+    brief, three-question quiz will be administered each week. This quiz
+    reflects on the information entered into your journal.
+  \item
+    \textbf{Quiz Format}:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      One question about a newly learned R function.
+    \item
+      One question about a noteworthy error you encountered and
+      resolved.
+    \item
+      One question about a significant aspect of your learning journey.
+    \end{itemize}
+  \item
+    \textbf{Purpose}: The quiz is not graded for correctness but serves
+    as a mechanism of accountability. It encourages you to thoroughly
+    engage with your journal entries and reflect on your weekly learning
+    experiences.
+  \item
+    \textbf{Submission and Grading}: Quizzes will be submitted via
+    Canvas and are due every Sunday at 11:59 pm. They are graded based
+    on completion, emphasizing the importance of regular reflection and
+    participation.
+  \end{itemize}
+\end{enumerate}
+
+\begin{tcolorbox}[enhanced jigsaw, toptitle=1mm, arc=.35mm, toprule=.15mm, colback=white, opacityback=0, coltitle=black, colbacktitle=quarto-callout-tip-color!10!white, colframe=quarto-callout-tip-color-frame, bottomtitle=1mm, opacitybacktitle=0.6, leftrule=.75mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Example Journal}, left=2mm, bottomrule=.15mm, breakable, titlerule=0mm, rightrule=.15mm]
+
+\begin{itemize}
+\tightlist
+\item
+  An example Quarto Journal will be provided on Canvas. Your journal
+  will not be graded but your quizzes
+\end{itemize}
+
+\end{tcolorbox}
+
+\begin{itemize}
+\tightlist
+\item
+  All responses to Check-ins are due \textbf{Sundays at 11:59 pm}.
+\end{itemize}
+
+\hypertarget{b.-check-ins}{%
+\subsubsection{B. Check-ins}\label{b.-check-ins}}
+
+Each week, you will find short Check-In questions or tasks throughout
+the text to make sure you are prepared for class that week. Make sure
+you submit your answers to these on Canvas to get credit for your
+efforts. Note that the Canvas Check-in quizzes can be submitted up to
+three times without a penalty - so you should get 100\% on this part of
+the course!
+
+\begin{itemize}
+\tightlist
+\item
+  All responses to Check-ins are due \textbf{Tuesdays at 8:00am}.
+\end{itemize}
+
+\hypertarget{c.-practice-activities}{%
+\subsubsection{C. Practice Activities}\label{c.-practice-activities}}
+
+Most Tuesday's, you will be given a Practice Activity to complete, to
+get the hang of the week's necessary \texttt{R} skills. These activities
+will always result in a single, straightforward correct answer, that you
+will submit via Canvas (one attempt). Therefore, there is no reason you
+should not get full credit in this category!
+
+Since these activities are intended to be your first attempt at new
+skills, they are meant to be done with help from me and your peers.
+Therefore, you will always be given some time in class to work on them.
+
+\begin{itemize}
+\tightlist
+\item
+  Practice Activities are due \textbf{Thursdays at 8:00am.}
+\end{itemize}
+
+\hypertarget{d.-the-midterms}{%
+\subsubsection{D. The Midterms}\label{d.-the-midterms}}
+
+This course includes two midterms, both of which are cumulative in
+nature. The purpose of these exams is to assess your understanding of
+the material covered and your ability to apply R programming skills in
+various contexts. The first midterm is scheduled for February 1, 2024,
+and will cover the initial chapters of the course. The second midterm is
+on February 29, 2024, and will include all content up to that date.
+These midterms are designed not just to test your knowledge, but also to
+strengthen your ability to think critically and process code effectively
+under different circumstances.
+
+\begin{itemize}
+\tightlist
+\item
+  Midterm 1 is on \textbf{Thursday 2/1/2024 at 4:10pm}
+\item
+  Midterm 2 is on \textbf{Thursday 2/29/2024 at 4:10pm}.
+\end{itemize}
+
+\hypertarget{e.-lab-assignments}{%
+\subsubsection{E. Lab Assignments}\label{e.-lab-assignments}}
+
+Your typical homework assignments will be weekly labs. You will follow
+each lab's instructions to complete tasks in \texttt{R} and submit a
+rendered .html Quarto document to Canvas.
+
+Most weeks, there will be class time on Thursdays dedicated to working
+on completing lab assignments.
+
+\begin{itemize}
+\tightlist
+\item
+  Labs are due on \textbf{Mondays at 11:59pm}.
+\end{itemize}
+
+\hypertarget{f.-the-final-project}{%
+\subsubsection{F. The Final Project}\label{f.-the-final-project}}
+
+The capstone of our course is a final project where you will develop an
+R Shiny application, choosing from one of the following thematic areas:
+Spotify, Sports, Census Data, or Finance Data. This project is a
+culmination of all the concepts and techniques learned throughout the
+course, presented through a practical lens. Each chapter of the textbook
+contributes to the skills and knowledge you will apply in this project,
+making it an integrative and hands-on experience. The aim is not only to
+solidify your understanding of R but also to showcase your ability to
+create a real-world application that leverages the powerful features of
+R Shiny.
+
+\hypertarget{g.-the-final-exam}{%
+\subsubsection{G. The Final Exam}\label{g.-the-final-exam}}
+
+The final exam, scheduled for March 21, 2024 in this room, will be
+comprehensive, encompassing all the topics we have covered throughout
+the course. While the exam is cumulative, it is not weighted as heavily
+as the final project. This structure is intentional, as the course
+places a greater emphasis on the practical application of skills and
+knowledge through the final project. The final exam serves as an
+opportunity to reinforce and demonstrate your overall understanding of
+statistical computing with R.
+
+\begin{itemize}
+\tightlist
+\item
+  The final is on \textbf{Thursday 3/21/2024 at 7:10pm - 10:00pm}
+\end{itemize}
+
+\hypertarget{attendance-participation}{%
+\subsection{Attendance \&
+Participation}\label{attendance-participation}}
+
+I do not take formal attendance in this class. However, it is my
+expectation that you remain in class and on task until you have finished
+all your activities and assignments. Consistent, repeated failure to
+attend class or actively participate in portions of the course will
+affect the demonstration of your engagement with the course.
+
+If you are feeling ill, please \textbf{do not come to class}. Instead,
+email me, review the material and work on the participation activity and
+weekly lab assignment; then schedule an appointment with me to meet
+virtually.
+
+\hypertarget{late-policy}{%
+\subsection{Late Policy}\label{late-policy}}
+
+Given the importance of maintaining consistency and fairness for all
+students, this course has a strict policy regarding deadlines. It is
+essential that you manage your time effectively and meet all assignment
+deadlines.
+
+\hypertarget{no-late-work-accepted}{%
+\subsubsection{No Late Work Accepted}\label{no-late-work-accepted}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Strict Deadlines}: Assignments must be submitted by their
+  specified deadlines. Late submissions will not be accepted under any
+  circumstances.
+\item
+  \textbf{Responsibility}: It is your responsibility to stay on top of
+  your work and adhere to the schedule. Plan ahead to ensure you can
+  meet all deadlines.
+\item
+  \textbf{Exceptions}: There will be no ``grace days'' or penalty-free
+  extensions. This policy is in place to encourage timely submission and
+  to ensure that all students are treated equally.
+\end{itemize}
+
+\hypertarget{managing-your-workload}{%
+\subsubsection{Managing Your Workload}\label{managing-your-workload}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Plan Ahead}: Keep track of all due dates and plan your work
+  schedule accordingly. Avoid last-minute submissions to ensure the
+  quality of your work.
+\item
+  \textbf{Stay Informed}: Regularly check course announcements and email
+  communications for any updates on assignments or deadlines.
+\end{itemize}
+
+\hypertarget{extenuating-circumstances}{%
+\subsubsection{Extenuating
+Circumstances}\label{extenuating-circumstances}}
+
+\begin{itemize}
+\tightlist
+\item
+  While no late work is accepted, I understand that unforeseen
+  circumstances can occur. If you have a serious issue that might affect
+  your ability to meet a deadline, please contact me as soon as possible
+  before the due date to discuss your situation.
+\end{itemize}
+
+\hypertarget{extra-credit-opportunity}{%
+\subsection{Extra Credit Opportunity}\label{extra-credit-opportunity}}
+
+\textbf{If you see me on campus, you know me.} Ask me a statistical
+question. You will fill out this
+\href{https://forms.gle/xf2oSkBiZDsBNJmu7}{survey} an I will give points
+to you at the end of quarter.
+
+I currently do not know how many points.
+
+\hypertarget{course-expectations}{%
+\section{Course Expectations}\label{course-expectations}}
+
+You will get out of this course what you put in. The following excerpt
+was taken from Rob Jenkins' article ``Defining the Relationship'' which
+was published in The Chronicle of Higher Education (August 8, 2016).
+This accurately summarizes what I expect of you in my classroom (and
+also what you should expect of me).
+
+\emph{``I'd like to be your partner. More than anything, I'd like for us
+to form a mutually beneficial alliance in this endeavor we call
+education.}
+
+\emph{I pledge to do my part. I will:}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Stay abreast of the latest ideas in my field.}
+\item
+  \emph{Teach you what I believe you need to know; with all the
+  enthusiasm I possess.}
+\item
+  \emph{Invite your comments and questions and respond constructively.}
+\item
+  \emph{Make myself available to you outside of class (within reason).}
+\item
+  \emph{Evaluate your work carefully and return it promptly with
+  feedback.}
+\item
+  \emph{Be as fair, respectful, and understanding as I can humanly be.}
+\item
+  \emph{If you need help beyond the scope of this course, I will do my
+  best to provide it or see that you get it.}
+\end{itemize}
+
+\emph{In return, I expect you to:}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Show up for class each day or let me know (preferably in
+  advance) if you have some good reason to be absent.}
+\item
+  \emph{Do your reading and other assignments outside of class and be
+  prepared for each class meeting.}
+\item
+  \emph{Focus during class on the work we're doing and not on extraneous
+  matters (like whoever or whatever is on your phone at the moment).}
+\item
+  \emph{Participate in class discussions.}
+\item
+  \emph{Be respectful of your fellow students and their points of view.}
+\item
+  \emph{In short, I expect you to devote as much effort to learning as I
+  devote to teaching.}
+\end{itemize}
+
+\emph{What you get out of this relationship is that you'll be better
+equipped to succeed in this and other college courses, work-related
+assignments, and life in general. What I get is a great deal of
+professional and personal satisfaction. Because I do really like you
+{[}all{]} and want the best for you.''}
+
+\begin{tcolorbox}[enhanced jigsaw, toptitle=1mm, arc=.35mm, toprule=.15mm, colback=white, opacityback=0, coltitle=black, colbacktitle=quarto-callout-tip-color!10!white, colframe=quarto-callout-tip-color-frame, bottomtitle=1mm, opacitybacktitle=0.6, leftrule=.75mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Sign Contract}, left=2mm, bottomrule=.15mm, breakable, titlerule=0mm, rightrule=.15mm]
+
+\begin{itemize}
+\tightlist
+\item
+  Take time to read this document from time to time to feel empowered by
+  this class and our effort to make this class an experience.
+\end{itemize}
+
+\end{tcolorbox}
+
+\hypertarget{make-mistakes}{%
+\subsubsection{Make Mistakes!}\label{make-mistakes}}
+
+Programming is the process of making a series of silly or stupid
+mistakes, and then slowly fixing each mistake (while adding a few more).
+The only way to know how to fix these mistakes (and avoid them in the
+future) is to make them. (Sometimes, you have to make the same mistake a
+few dozen times before you can avoid it in the future). At some point
+during the class, you will find that you've spent 30 minutes staring at
+an error caused by a typo, a space, a parenthesis in the wrong place.
+You may ask for help debugging this weird error, only to have someone
+immediately point out the problem\ldots{} it is always easier to see
+these things in someone else's code. This is part of programming, it is
+normal, and you shouldn't feel embarrassed or sorry (unless you put no
+effort into troubleshooting the problem before you asked for help)
+
+If you manage to produce an error I haven't seen before, then
+congratulations. You have achieved something special, and that
+achievement should be celebrated. Each new and bizarre error is an
+opportunity to learn a bit more about the programming language, the
+operating system, or the interaction between the two.
+
+\hypertarget{learning-environment-and-support}{%
+\section{Learning Environment and
+Support}\label{learning-environment-and-support}}
+
+I am committed to creating a safe and inclusive learning environment
+where all students feel respected and supported. If there are any ways I
+can improve the classroom environment to make it more welcoming for you,
+please don't hesitate to let me know.
+
+If you have a disability and require accommodations to fully participate
+in the course, please contact me as soon as possible to discuss how I
+can best support you. I also encourage you to register with Cal Poly's
+Disability Resource Center (Building 124, Room 119 or at 805-756-1395)
+to explore additional accommodations that may be available to you.
+
+If you are experiencing food insecurity, housing instability, or other
+challenges that may impact your ability to succeed in this course,
+please refer to the resources listed on Canvas under ``Student Support
+Services at Cal Poly.'' These resources provide a range of essential
+support services, including emergency financial assistance, counseling,
+and academic support.
+
+I am committed to working with you to ensure that you have the resources
+and support you need to succeed in this course. Let's work together to
+create a positive and inclusive learning environment for all students.
+
+\hypertarget{academic-integrity-and-class-conduct}{%
+\section{Academic Integrity and Class
+Conduct}\label{academic-integrity-and-class-conduct}}
+
+Academic integrity is a fundamental value of this course and of the
+university. Simply put, I will not tolerate cheating, plagiarism, or any
+other form of academic dishonesty.
+
+Any incident of academic misconduct, including dishonesty, copying, or
+plagiarism, will be reported to the Office of Student Rights and
+Responsibilities.
+
+Cheating will earn you a grade of 0\% on the assignment and an overall
+grade penalty of at least 10\%. In circumstances of flagrant cheating,
+you may be given a grade of F in the course.
+
+It is important to note that paraphrasing or quoting another's work
+without proper citation is a form of academic misconduct. This includes
+the \texttt{R} code produced by someone else! Writing code is like
+writing a paper, it is obvious if you copied-and-pasted a sentence from
+someone else into your paper because the way each person writes is
+different.
+
+Even inadvertent or unintentional misuse or appropriation of another's
+work (such as relying heavily on source material that is not expressly
+acknowledged) is considered plagiarism. This includes using Chat GPT,
+which should only be used to help you problem solve just as a tutor or
+peer would, and not as a substitute for your own work. If you are
+struggling with writing the \texttt{R} code for an assignment, please
+reach out to me. I would prefer that I get to help you rather than you
+spending hours Googling things and get nowhere!
+
+If you have any questions about using and citing sources, you are
+expected to ask for clarification.
+
+To ensure academic integrity, please be sure to cite all sources
+appropriately and only use Chat GPT in an ethical manner. For more
+information on academic misconduct and what constitutes cheating and
+plagiarism, please see
+\href{https://academicprograms.calpoly.edu/content/academicpolicies/Cheating}{academicprograms.calpoly.edu/content/academicpolicies/Cheating}.
+
+\hypertarget{california-faculty-association}{%
+\section{California Faculty
+Association}\label{california-faculty-association}}
+
+The California Faculty Association (the labor union of Lecturers,
+Professors, Coaches, Counselors, and Librarians across the 23 CSU
+campuses) is in a difficult contract dispute with California State
+University management. It is possible that we will call a strike or
+other work stoppage this term. I promise to promptly inform you of any
+schedule disruption. Our working conditions are your learning
+conditions; we seek to protect both. For further information go to
+\href{https://www.cfabargaining.org/}{www.CFAbargaining.org}.
+
+
+
+\end{document}
