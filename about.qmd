@@ -1,9 +1,77 @@
 ---
-title: "About"
+title: "About Dr. Williams"
+author: "Immanuel J. Williams, Ph.D."
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output: html_document
 ---
 
-About this site
+# Immanuel J. Williams, Ph.D.
 
-```{r}
-1 + 1
-```
+## Contact Information
+2916 Augusta Street, APT 24  
+San Luis Obispo, CA 93401  
+Phone: (732) 207-7321  
+Email: [imwillia@calpoly.edu](mailto:imwillia@calpoly.edu)
+
+## Education
+
+- **Ph.D. in Education**  
+  Major: Psychometrics & Statistics  
+  Rutgers University, May 2017
+  
+- **M.S. in Statistics**  
+  Major: Psychometrics  
+  Rutgers University, January 2013
+  
+- **B.S. in Mathematics**  
+  Major: Statistics  
+  The University of Maryland, Baltimore County, May 2011
+
+## Teaching Experience
+
+- **2018-Present: Lecturer**  
+  California Polytechnic State University  
+  Courses: Statistical Inference for Management I/II
+  
+- **2017-2018: Lecturer**  
+  University California Santa Cruz  
+  Courses: Statistical Methods For The Biological, Environmental, And Health Sciences, Gambling, And Gaming, & The Art of Data Visualization
+  
+- **2015-2017: Lecturer**  
+  California State University Monterey Bay  
+  Courses: Pre-calculus, Calculus II, & Applied Statistics
+
+## Publications
+
+- Weiland, T., & Williams, I. J., (2023). Culturally Relevant Data in Teaching Statistics and Data Science Courses. *Journal of Statistics and Data Science Education*, 1-16.
+  
+- Sisso, D., Bass, N., & Williams, I. J., (2023). Teaching One‐Way ANOVA with engaging NBA data and R Shiny within a flexdashboard. *Teaching Statistics*.
+  
+- DeLiema, D., Flood, V. J., Dahn, M., Williams, I. J., Abrahamson, D., & Enyedy, N. (2022). Debugging Failure: A Multi-dimensional Framework for Documenting Newcomers’ Experiences with Obstacles. *Cognition and Instruction*.
+
+- Langer-Osuna, J. M., Munson, J., Gargroetzi, E. C., Williams, I. J., & Chavez, R. (2020). So What Are We Working On? Examining Student Authority Relations During Collaborative Mathematics Activity in a Fourth Grade Classroom. *Educational Studies in Mathematics*.
+
+- Battey, D., Leyva, L. A., Williams, I. J., Belizario, V., Greco, R., & Shah, R. (2019). Racial (Mis)Match in Middle School Mathematics Classrooms: Relational Interactions as a Racialized Mechanism. *Harvard Educational Review*, 89(1).
+
+- Williams, I. J., & Williams, K. K. (2018). Using R Shiny to Enhance the Learning Experience of Confidence Intervals using National Basketball Association (NBA) Data. *Teaching Statistics*.
+
+- Williams, I. J., & Culpepper, S. A. (2017). Gain scores, analysis of. In Frey, B.B. (ed). *Encyclopedia of Educational Research, Measurement and Evaluation*. Thousand Oaks, CA: Sage.
+
+- Williams, I. J., & Williams, K. K. (2016). Understanding Summary Statistics and Graphical Techniques to compare Michael Jordan versus Lebron James. *Teaching Statistics*.
+
+## Presentations
+
+- Millard, C., & Williams, I. J. (2022, November). Extraction, Transformation, and Visualization: A different take on introducing Exploratory Data Analysis. Poster presented virtually at the annual meeting of the Joint Mathematical Meeting CSU.
+
+- Millard, C., & Williams, I. J. (2022, October). Extraction, Manipulation, and Visualization: A different take on introducing Exploratory Data Analysis Poster presented virtually at the annual meeting of the Electronic Undergraduate Statistics Research Conference. (Tied 1st Place)
+
+- Sisso, D., & Williams, I. J. (2021, October). Who is the NBA GOAT (Greatest of All Time)? Using Culturally Relevant Data to Teach ANOVA. Poster presented virtually at the annual meeting of the Electronic Undergraduate Statistics Research Conference.
+
+- Williams, I. J., & Weiland, T. (2021, April). Explore Culturally Relevant Data through a Map of Segregation And Redlining. Poster presented virtually at the annual meeting of the United States Conference on Teaching Statistics.
+
+- Williams, I. J. (2020, May). Personalized Assessment Reports to Inform and Motivate Students within Introductory Statistics Courses using R and Akindi. Poster presented virtually at the annual meeting of the Electronic Conference on Teaching Statistics.
+
+- Williams, I. J. (2019, November). Plots for Shots: Implementing R Shiny and Culturally Relevant Data in the Classroom to Enhance Student Learning and Engagement. Poster presented at the annual meeting of the Math Alliance, St. Louis, CA.
+
+ 
+
