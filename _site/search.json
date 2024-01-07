@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "",
+    "text": "Dr. Immanuel Williams\n Email: imwillia@calpoly.edu\n Office: Building 25 Office 113 (by Statistics Department Office)"
+  },
+  {
+    "objectID": "index.html#communication",
+    "href": "index.html#communication",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "",
+    "text": "Dr. Immanuel Williams\n Email: imwillia@calpoly.edu\n Office: Building 25 Office 113 (by Statistics Department Office)"
+  },
+  {
+    "objectID": "index.html#course-logistics",
+    "href": "index.html#course-logistics",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "Course Logistics",
+    "text": "Course Logistics\nClass Meeting Times: Tuesdays/Thursdays\n\nSection 72: 4:10pm - 6:00pm\n\nRoom: 38-0123 (Math & Science)\nLearning Hours are held in my office (25-113) during the following times:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote that learning hours are not just for when you have content questions. Stop by to introduce yourself, ask questions about the broader field of statistics, or share what you are working on!"
+  },
+  {
+    "objectID": "index.html#assessmentgrading",
+    "href": "index.html#assessmentgrading",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "Assessment/Grading",
+    "text": "Assessment/Grading\nYour grade in STAT 331/531 will contain the following components:\n\n\n\nAssignments\nWeight\n\n\n\n\nWeekly Journal Quizzes\n5%\n\n\nCheck-ins\n5%\n\n\nPractice Activities\n10%\n\n\nLab Assignments\n25%\n\n\nMidterm Exams\n20%\n\n\nFinal Project\n25%\n\n\nFinal Exam\n10%\n\n\n\nLower bounds for grade cutoffs are shown in the following table. I will not “round up” grades at the end of the quarter. See this social media thread for advice on “Playing the lines. Don’t be there.”\n\n\n\n\n\n\n\n\nLetter grade\nX +\nX\nX -\n\n\n\n\nA\n.\n93\n90\n\n\nB\n87\n83\n80\n\n\nC\n77\n73\n70\n\n\nD\n67\n63\n60\n\n\nF\n&lt;60\n\n\n\n\n\nInterpretation of this table:\n\nA grade of 85 will receive a B.\nA grade of 77 will receive a C+.\nA grade of 70 will receive a C-.\nAnything below a 60 will receive an F.\n\n\nGeneral Evaluation Criteria\nIn every assignment, discussion, and written component of this class, you are expected to demonstrate that you are intellectually engaging with the material. I will evaluate you based on this engagement, which means that technically correct but low effort answers which do not demonstrate engagement or understanding will receive no credit.\nWhen you answer questions in this class, your goal is to show that you either understand the material or are actively engaging with it. If you did not achieve this goal, then your answer is incomplete, regardless of whether or not it is technically correct. This is not to encourage you to add unnecessary complexity to your answer - simple, elegant solutions are always preferable to unwieldly, complex solutions that accomplish the same task.\nWhile this is not an English class, grammar and spelling are important, as is your ability to communicate technical information in writing; both of these criteria will be used in addition to assignment-specific rubrics to evaluate your work."
+  },
+  {
+    "objectID": "index.html#assignment-breakdown",
+    "href": "index.html#assignment-breakdown",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "Assignment Breakdown",
+    "text": "Assignment Breakdown\n\nWeekly Reflection Journal\nObjective: This journal is designed to enhance your learning experience in statistical computing. By actively documenting your progress, reflecting on challenges, and acknowledging your achievements, you will deepen your understanding and improve your problem-solving skills in R programming.\nComponents of the Journal:\n\nQuarto File – ‘The Journal’:\n\nEach week, you will maintain a digital journal in a Quarto file. This journal is your space to document new R functions you’ve learned, errors encountered, and reflections on your learning journey.\nWeekly Entries:\n\nFunction Log: Note any new R functions you learn each week, detailing their purpose and an example of their usage.\nError Diary: Record any significant errors you encounter, describe the issue, and explain how you resolved it. This diary will serve as a valuable resource for troubleshooting. Throughout the course, students are likely to encounter various errors, both minor and significant. Initially, log all errors, including omitted arguments, to build a strong foundation; as proficiency increases, focus on documenting more complex and conceptually challenging errors.\nReflection: Pen a brief reflection on your learning experiences, the challenges you faced, and how you plan to apply or improve upon this knowledge in the future.\n\n\nWeekly Quiz:\n\nTo complement your journaling and ensure consistent engagement, a brief, three-question quiz will be administered each week. This quiz reflects on the information entered into your journal.\nQuiz Format:\n\nOne question about a newly learned R function.\nOne question about a noteworthy error you encountered and resolved.\nOne question about a significant aspect of your learning journey.\n\nPurpose: The quiz is not graded for correctness but serves as a mechanism of accountability. It encourages you to thoroughly engage with your journal entries and reflect on your weekly learning experiences.\nSubmission and Grading: Quizzes will be submitted via Canvas and are due every Sunday at 11:59 pm. They are graded based on completion, emphasizing the importance of regular reflection and participation.\n\n\n\n\n\n\n\n\nExample Journal\n\n\n\n\nAn example Quarto Journal will be provided on Canvas. Your journal will not be graded but your quizzes\n\n\n\n\nAll responses to Check-ins are due Sundays at 11:59 pm.\n\n\n\nCheck-ins\nEach week, you will find short Check-In questions or tasks throughout the text to make sure you are prepared for class that week. Make sure you submit your answers to these on Canvas to get credit for your efforts. Note that the Canvas Check-in quizzes can be submitted up to three times without a penalty - so you should get 100% on this part of the course!\n\nAll responses to Check-ins are due Tuesdays at 8:00am.\n\n\n\nPractice Activities\nMost Tuesday’s, you will be given a Practice Activity to complete, to get the hang of the week’s necessary R skills. These activities will always result in a single, straightforward correct answer, that you will submit via Canvas (one attempt). Therefore, there is no reason you should not get full credit in this category!\nSince these activities are intended to be your first attempt at new skills, they are meant to be done with help from me and your peers. Therefore, you will always be given some time in class to work on them.\n\nPractice Activities are due Thursdays at 8:00am.\n\n\n\nLab Assignments\nYour typical homework assignments will be weekly labs. You will follow each lab’s instructions to complete tasks in R and submit a rendered .html Quarto document to Canvas.\nMost weeks, there will be class time on Thursdays dedicated to working on completing lab assignments.\n\nLabs are due on Mondays at 11:59pm."
+  },
+  {
+    "objectID": "index.html#attendance-participation",
+    "href": "index.html#attendance-participation",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "Attendance & Participation",
+    "text": "Attendance & Participation\nI do not take formal attendance in this class. However, it is my expectation that you remain in class and on task until you have finished all your activities and assignments. Consistent, repeated failure to attend class or actively participate in portions of the course will affect the demonstration of your engagement with the course.\nIf you are feeling ill, please do not come to class. Instead, email me, review the material and work on the participation activity and weekly lab assignment; then schedule an appointment with me to meet virtually."
+  },
+  {
+    "objectID": "index.html#late-policy",
+    "href": "index.html#late-policy",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "Late Policy",
+    "text": "Late Policy\nGiven the importance of maintaining consistency and fairness for all students, this course has a strict policy regarding deadlines. It is essential that you manage your time effectively and meet all assignment deadlines.\n\nNo Late Work Accepted\n\nStrict Deadlines: Assignments must be submitted by their specified deadlines. Late submissions will not be accepted under any circumstances.\nResponsibility: It is your responsibility to stay on top of your work and adhere to the schedule. Plan ahead to ensure you can meet all deadlines.\nExceptions: There will be no “grace days” or penalty-free extensions. This policy is in place to encourage timely submission and to ensure that all students are treated equally.\n\n\n\nManaging Your Workload\n\nPlan Ahead: Keep track of all due dates and plan your work schedule accordingly. Avoid last-minute submissions to ensure the quality of your work.\nStay Informed: Regularly check course announcements and email communications for any updates on assignments or deadlines.\n\n\n\nExtenuating Circumstances\n\nWhile no late work is accepted, I understand that unforeseen circumstances can occur. If you have a serious issue that might affect your ability to meet a deadline, please contact me as soon as possible before the due date to discuss your situation."
+  },
+  {
+    "objectID": "index.html#extra-credit-opportunity",
+    "href": "index.html#extra-credit-opportunity",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "Extra Credit Opportunity",
+    "text": "Extra Credit Opportunity\nIf you see me on campus, you know me. Ask me a statistical question. You will fill out this survey an I will give points to you at the end of quarter.\nI currently do not know how many points."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]
