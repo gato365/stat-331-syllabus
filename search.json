@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "",
+    "text": "Dr. Immanuel Williams\n Email: imwillia@calpoly.edu\n Office: Building 25 Office 113 (by Statistics Department Office)"
+  },
+  {
+    "objectID": "index.html#communication",
+    "href": "index.html#communication",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "",
+    "text": "Dr. Immanuel Williams\n Email: imwillia@calpoly.edu\n Office: Building 25 Office 113 (by Statistics Department Office)"
+  },
+  {
+    "objectID": "index.html#course-logistics",
+    "href": "index.html#course-logistics",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "Course Logistics",
+    "text": "Course Logistics\nClass Meeting Times: Tuesdays/Thursdays\n\nSection 72: 4:10pm - 6:00pm\n\nRoom: 180-272 (Baker Ctr Sci & Math 180) \nLearning Hours: are held in my office (25-113) during the following times:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote that learning hours are not just for when you have content questions. Stop by to introduce yourself, ask questions about the broader field of statistics, or share what you are working on!"
+  },
+  {
+    "objectID": "index.html#assessmentgrading",
+    "href": "index.html#assessmentgrading",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "Assessment/Grading",
+    "text": "Assessment/Grading\nYour grade in STAT 331/531 will contain the following components:"
+  },
+  {
+    "objectID": "index.html#assignment-breakdown",
+    "href": "index.html#assignment-breakdown",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "Assignment Breakdown",
+    "text": "Assignment Breakdown\n\nTuesday Quizzes\n\nPurpose: These quizzes assess your understanding of material introduced in pre-class videos and covered during the previous week’s classes. They are designed to ensure that you’ve grasped foundational concepts and are prepared for deeper application in subsequent tasks.\nFormat: Each quiz consists of 3 short questions that focus on recall and basic application of concepts. You will have a single attempt, and these quizzes are open-note, emphasizing the importance of preparation and active engagement with class materials.\nWhat to Expect: Questions may include definitions, identification of key functions, or simple applications to reinforce your learning. Do not use any AI software or any resources outside of the notes for these quizzes.\nStudents will have 1 attempt to complete the quiz. You will not be given time to complete the quiz in class.\nOpens on Every Tuesday at 8:00am and closes on Wednesday at 11:59pm.\n\n\n\n\nHomework Assignments\n\nPurpose: Homework provides structured practice with key functions and concepts discussed in class, often through the lens of the ETV (Extraction, Transformation, Visualization) framework. Assignments also introduce new tasks or functions not covered in class, with clear instructions on their use, encouraging independent learning and exploration.\nFormat: Each assignment includes a series of coding exercises and applied tasks. These may involve completing an ETV cycle, solving real-world data problems, or using specific functions to manipulate and visualize data. There will 12 questions per homework assignment.\nWhat to Expect: Homework emphasizes problem-solving and creativity, often requiring you to integrate multiple concepts into a cohesive workflow. Use AI and other resources to help you problem solve, but do not use them to complete the homework.\nStudents will have 5 attempts to complete the homework.\nOpens on Thursday at 8:00am and closes on the following Wednesday at 11:59pm.\n\n\n\n\nFriday Quizzes\n\nPurpose: These quizzes focus on evaluating your ability to apply the concepts, functions, and techniques covered during the week’s classes. They are an opportunity to demonstrate mastery of the material in a practical context.\nFormat: Each quiz includes 10 questions, blending conceptual understanding with applied problem-solving. Unlike Tuesday quizzes, these are more comprehensive and designed to integrate ideas from the week’s tasks.\nWhat to Expect: Questions may involve interpreting code, applying multiple steps of the ETV framework, or solving problems based on class discussions and tasks. Do not use any AI software or any resources outside of the notes for these quizzes.\nStudents will have 1 attempt to complete the quiz. You will not be given time to complete the quiz in class.\nOpens on Every Friday at 8:00am (the days you do not have a midterm) and closes on Saturday at 11:59pm.\n\n\n\n\nMidterm Exams\n\nPurpose: Midterms assess your comprehensive understanding of the material covered up to the exam date. They test your ability to demonstrate mastery through problem-solving, practical application, and reflection on how tasks connect to broader data analysis principles.\nFormat: Exams may include multiple-choice questions, coding-based tasks, and short-answer explanations. You will be asked to apply the ETV framework and other concepts to solve structured problems and demonstrate critical thinking. There will be 8 questions per midterm.\nWhat to Expect: Midterms challenge you to show how well you can perform tasks learned in class and connect them to previous concepts.\nStudents will have 1 attempt to complete the midterm. You will complete midterms in class.\nThursdays Week 3, 6 and 9. These exams can between 50-75 minutes.\n\n\n\n\nFinal Exam\n\nPurpose: The final exam evaluates your cumulative understanding of the entire course. It ensures you can integrate and apply the concepts, techniques, and tools learned over the quarter in a coherent and meaningful way.\nFormat: The exam will consist of a mix of conceptual questions, coding tasks, and applied scenarios requiring a complete ETV workflow. You may also be asked to reflect on how your problem-solving skills have developed throughout the course. There will be 26 questions on the final exam.\nWhat to Expect: Expect questions that ask you to apply all stages of ETV to complex, real-world datasets, along with explanations of your approach and decision-making process.\nThursday, March 20.\n\n\nJust because I like numbers, I just want to let you know there will be 270 questions in total for the quarter."
+  },
+  {
+    "objectID": "index.html#attendance-participation",
+    "href": "index.html#attendance-participation",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "Attendance & Participation",
+    "text": "Attendance & Participation\nI do not take formal attendance in this class. However, it is my expectation that you remain in class and on task until you have finished all your activities and assignments. Consistent, repeated failure to attend class or actively participate in portions of the course will affect the demonstration of your engagement with the course.\nIf you are feeling ill, please do not come to class. Instead, email me, review the material and work on the participation activity and weekly lab assignment; then schedule an appointment with me to meet virtually."
+  },
+  {
+    "objectID": "index.html#late-policy",
+    "href": "index.html#late-policy",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "Late Policy",
+    "text": "Late Policy\nGiven the importance of maintaining consistency and fairness for all students, this course has a strict policy regarding deadlines. It is essential that you manage your time effectively and meet all assignment deadlines.\n\nNo Late Work Accepted\n\nStrict Deadlines: Assignments must be submitted by their specified deadlines. Late submissions will not be accepted under any circumstances.\nResponsibility: It is your responsibility to stay on top of your work and adhere to the schedule. Plan ahead to ensure you can meet all deadlines.\nExceptions: There will be no “grace days” or penalty-free extensions. This policy is in place to encourage timely submission and to ensure that all students are treated equally.\n\n\n\nManaging Your Workload\n\nPlan Ahead: Keep track of all due dates and plan your work schedule accordingly. Avoid last-minute submissions to ensure the quality of your work.\nStay Informed: Regularly check course announcements and email communications for any updates on assignments or deadlines.\n\n\n\nExtenuating Circumstances\n\nWhile no late work is accepted, I understand that unforeseen circumstances can occur. If you have a serious issue that might affect your ability to meet a deadline, please contact me as soon as possible before the due date to discuss your situation."
+  },
+  {
+    "objectID": "index.html#extra-credit-opportunity",
+    "href": "index.html#extra-credit-opportunity",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "Extra Credit Opportunity",
+    "text": "Extra Credit Opportunity\nIf you see me on campus, you know me. Ask me a statistical question. You will fill out this survey an I will give points to you at the end of quarter.\nI currently do not know how many points."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Dr. Williams",
+    "section": "",
+    "text": "2916 Augusta Street, APT 24\nSan Luis Obispo, CA 93401\nPhone: (732) 207-7321\nEmail: imwillia@calpoly.edu\n\n\n\n\nPh.D. in Education\nMajor: Psychometrics & Statistics\nRutgers University, May 2017\nM.S. in Statistics\nMajor: Psychometrics\nRutgers University, January 2013\nB.S. in Mathematics\nMajor: Statistics\nThe University of Maryland, Baltimore County, May 2011\n\n\n\n\n\n2018-Present: Lecturer\nCalifornia Polytechnic State University\nCourses: Statistical Inference for Management I/II\n2017-2018: Lecturer\nUniversity California Santa Cruz\nCourses: Statistical Methods For The Biological, Environmental, And Health Sciences, Gambling, And Gaming, & The Art of Data Visualization\n2015-2017: Lecturer\nCalifornia State University Monterey Bay\nCourses: Pre-calculus, Calculus II, & Applied Statistics\n\n\n\n\n\nWeiland, T., & Williams, I. J., (2023). Culturally Relevant Data in Teaching Statistics and Data Science Courses. Journal of Statistics and Data Science Education, 1-16.\nSisso, D., Bass, N., & Williams, I. J., (2023). Teaching One‐Way ANOVA with engaging NBA data and R Shiny within a flexdashboard. Teaching Statistics.\nDeLiema, D., Flood, V. J., Dahn, M., Williams, I. J., Abrahamson, D., & Enyedy, N. (2022). Debugging Failure: A Multi-dimensional Framework for Documenting Newcomers’ Experiences with Obstacles. Cognition and Instruction.\nLanger-Osuna, J. M., Munson, J., Gargroetzi, E. C., Williams, I. J., & Chavez, R. (2020). So What Are We Working On? Examining Student Authority Relations During Collaborative Mathematics Activity in a Fourth Grade Classroom. Educational Studies in Mathematics.\nBattey, D., Leyva, L. A., Williams, I. J., Belizario, V., Greco, R., & Shah, R. (2019). Racial (Mis)Match in Middle School Mathematics Classrooms: Relational Interactions as a Racialized Mechanism. Harvard Educational Review, 89(1).\nWilliams, I. J., & Williams, K. K. (2018). Using R Shiny to Enhance the Learning Experience of Confidence Intervals using National Basketball Association (NBA) Data. Teaching Statistics.\nWilliams, I. J., & Culpepper, S. A. (2017). Gain scores, analysis of. In Frey, B.B. (ed). Encyclopedia of Educational Research, Measurement and Evaluation. Thousand Oaks, CA: Sage.\nWilliams, I. J., & Williams, K. K. (2016). Understanding Summary Statistics and Graphical Techniques to compare Michael Jordan versus Lebron James. Teaching Statistics.\n\n\n\n\n\nMillard, C., & Williams, I. J. (2022, November). Extraction, Transformation, and Visualization: A different take on introducing Exploratory Data Analysis. Poster presented virtually at the annual meeting of the Joint Mathematical Meeting CSU.\nMillard, C., & Williams, I. J. (2022, October). Extraction, Manipulation, and Visualization: A different take on introducing Exploratory Data Analysis Poster presented virtually at the annual meeting of the Electronic Undergraduate Statistics Research Conference. (Tied 1st Place)\nSisso, D., & Williams, I. J. (2021, October). Who is the NBA GOAT (Greatest of All Time)? Using Culturally Relevant Data to Teach ANOVA. Poster presented virtually at the annual meeting of the Electronic Undergraduate Statistics Research Conference.\nWilliams, I. J., & Weiland, T. (2021, April). Explore Culturally Relevant Data through a Map of Segregation And Redlining. Poster presented virtually at the annual meeting of the United States Conference on Teaching Statistics.\nWilliams, I. J. (2020, May). Personalized Assessment Reports to Inform and Motivate Students within Introductory Statistics Courses using R and Akindi. Poster presented virtually at the annual meeting of the Electronic Conference on Teaching Statistics.\nWilliams, I. J. (2019, November). Plots for Shots: Implementing R Shiny and Culturally Relevant Data in the Classroom to Enhance Student Learning and Engagement. Poster presented at the annual meeting of the Math Alliance, St. Louis, CA."
+  },
+  {
+    "objectID": "about.html#contact-information",
+    "href": "about.html#contact-information",
+    "title": "About Dr. Williams",
+    "section": "",
+    "text": "2916 Augusta Street, APT 24\nSan Luis Obispo, CA 93401\nPhone: (732) 207-7321\nEmail: imwillia@calpoly.edu"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Dr. Williams",
+    "section": "",
+    "text": "Ph.D. in Education\nMajor: Psychometrics & Statistics\nRutgers University, May 2017\nM.S. in Statistics\nMajor: Psychometrics\nRutgers University, January 2013\nB.S. in Mathematics\nMajor: Statistics\nThe University of Maryland, Baltimore County, May 2011"
+  },
+  {
+    "objectID": "about.html#teaching-experience",
+    "href": "about.html#teaching-experience",
+    "title": "About Dr. Williams",
+    "section": "",
+    "text": "2018-Present: Lecturer\nCalifornia Polytechnic State University\nCourses: Statistical Inference for Management I/II\n2017-2018: Lecturer\nUniversity California Santa Cruz\nCourses: Statistical Methods For The Biological, Environmental, And Health Sciences, Gambling, And Gaming, & The Art of Data Visualization\n2015-2017: Lecturer\nCalifornia State University Monterey Bay\nCourses: Pre-calculus, Calculus II, & Applied Statistics"
+  },
+  {
+    "objectID": "about.html#publications",
+    "href": "about.html#publications",
+    "title": "About Dr. Williams",
+    "section": "",
+    "text": "Weiland, T., & Williams, I. J., (2023). Culturally Relevant Data in Teaching Statistics and Data Science Courses. Journal of Statistics and Data Science Education, 1-16.\nSisso, D., Bass, N., & Williams, I. J., (2023). Teaching One‐Way ANOVA with engaging NBA data and R Shiny within a flexdashboard. Teaching Statistics.\nDeLiema, D., Flood, V. J., Dahn, M., Williams, I. J., Abrahamson, D., & Enyedy, N. (2022). Debugging Failure: A Multi-dimensional Framework for Documenting Newcomers’ Experiences with Obstacles. Cognition and Instruction.\nLanger-Osuna, J. M., Munson, J., Gargroetzi, E. C., Williams, I. J., & Chavez, R. (2020). So What Are We Working On? Examining Student Authority Relations During Collaborative Mathematics Activity in a Fourth Grade Classroom. Educational Studies in Mathematics.\nBattey, D., Leyva, L. A., Williams, I. J., Belizario, V., Greco, R., & Shah, R. (2019). Racial (Mis)Match in Middle School Mathematics Classrooms: Relational Interactions as a Racialized Mechanism. Harvard Educational Review, 89(1).\nWilliams, I. J., & Williams, K. K. (2018). Using R Shiny to Enhance the Learning Experience of Confidence Intervals using National Basketball Association (NBA) Data. Teaching Statistics.\nWilliams, I. J., & Culpepper, S. A. (2017). Gain scores, analysis of. In Frey, B.B. (ed). Encyclopedia of Educational Research, Measurement and Evaluation. Thousand Oaks, CA: Sage.\nWilliams, I. J., & Williams, K. K. (2016). Understanding Summary Statistics and Graphical Techniques to compare Michael Jordan versus Lebron James. Teaching Statistics."
+  },
+  {
+    "objectID": "about.html#presentations",
+    "href": "about.html#presentations",
+    "title": "About Dr. Williams",
+    "section": "",
+    "text": "Millard, C., & Williams, I. J. (2022, November). Extraction, Transformation, and Visualization: A different take on introducing Exploratory Data Analysis. Poster presented virtually at the annual meeting of the Joint Mathematical Meeting CSU.\nMillard, C., & Williams, I. J. (2022, October). Extraction, Manipulation, and Visualization: A different take on introducing Exploratory Data Analysis Poster presented virtually at the annual meeting of the Electronic Undergraduate Statistics Research Conference. (Tied 1st Place)\nSisso, D., & Williams, I. J. (2021, October). Who is the NBA GOAT (Greatest of All Time)? Using Culturally Relevant Data to Teach ANOVA. Poster presented virtually at the annual meeting of the Electronic Undergraduate Statistics Research Conference.\nWilliams, I. J., & Weiland, T. (2021, April). Explore Culturally Relevant Data through a Map of Segregation And Redlining. Poster presented virtually at the annual meeting of the United States Conference on Teaching Statistics.\nWilliams, I. J. (2020, May). Personalized Assessment Reports to Inform and Motivate Students within Introductory Statistics Courses using R and Akindi. Poster presented virtually at the annual meeting of the Electronic Conference on Teaching Statistics.\nWilliams, I. J. (2019, November). Plots for Shots: Implementing R Shiny and Culturally Relevant Data in the Classroom to Enhance Student Learning and Engagement. Poster presented at the annual meeting of the Math Alliance, St. Louis, CA."
+  },
+  {
+    "objectID": "about.html#cover-letter",
+    "href": "about.html#cover-letter",
+    "title": "About Me",
+    "section": "",
+    "text": "Dear Hiring Committee,\nI am writing in response to the tenure track assistant professor position within the computer science department at California Polytechnic State University…\n(Include the full text of your cover letter here…)\nSincerely,\nImmanuel Williams, Ph.D."
+  },
+  {
+    "objectID": "index.html#grading-breakdown",
+    "href": "index.html#grading-breakdown",
+    "title": "Stat 331/531: Statistical Computing with R",
+    "section": "Grading Breakdown",
+    "text": "Grading Breakdown\n\n\n\nAssignments\nWeight\n\n\n\n\nTuesday Quizzes\n5%\n\n\nFriday Quizzes\n15%\n\n\nHomework Assignments\n10%\n\n\nMidterm Exams\n35%\n\n\nFinal Exam\n35%\n\n\n\nLower bounds for grade cutoffs are shown in the following table. I will not “round up” grades at the end of the quarter. See this social media thread for advice on “Playing the lines. Don’t be there.”\n\n\n\n\n\n\n\n\nLetter grade\nX +\nX\nX -\n\n\n\n\nA\n.\n93\n90\n\n\nB\n87\n83\n80\n\n\nC\n77\n73\n70\n\n\nD\n67\n63\n60\n\n\nF\n&lt;60\n\n\n\n\n\nInterpretation of this table:\n\nA grade of 85 will receive a B.\nA grade of 77 will receive a C+.\nA grade of 70 will receive a C-.\nAnything below a 60 will receive an F.\n\n\n\nGeneral Evaluation Criteria\nThis course focuses on developing a thoughtful and analytical problem-solving approach, emphasizing the ETV process—Extraction, Transformation, and Visualization—a framework inspired by the widely-used ETL (Extract, Transform, Load) process in data science and data warehousing. The goal of ETV is to simulate real-world data workflows, enabling students to handle data from acquisition to actionable insights effectively.\n\nExtraction: Students must demonstrate their ability to acquire data from diverse sources. This step involves understanding the structure of raw data and preparing it for further processing, mirroring real-world challenges in data integration.\nTransformation: Beyond technical correctness, students are expected to actively engage with tasks such as cleaning, filtering, reshaping, and normalizing data. Intellectual engagement is demonstrated through the clarity and rationale behind their transformations, reflecting a deep understanding of the material.\nVisualization: Students will learn to create meaningful visual representations of data to communicate insights effectively. This step emphasizes not only technical proficiency but also the ability to think critically about how best to present information.\n\nIn every task, engagement with the material is paramount. This means that technically correct but low-effort answers that do not demonstrate understanding or effort will not receive full credit. Similarly, while simplicity is valued, it must not come at the expense of depth or accuracy."
+  }
+]
